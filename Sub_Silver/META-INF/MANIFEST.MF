@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sub_silver
+Bundle-SymbolicName: Sub_Silver
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: sub_silver.SilverActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: sub.silver
+Import-Package: org.osgi.framework;version="1.10.0",
+ pub_adventure,
+ pub_diving,
+ pub_hillclimb,
+ pub_safari
+Bundle-ActivationPolicy: lazy

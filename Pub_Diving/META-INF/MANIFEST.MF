@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Pub_diving
+Bundle-SymbolicName: Pub_Diving
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: pub_diving.DivingActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: pub.diving
+Import-Package: org.osgi.framework;version="1.10.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: pub_diving
